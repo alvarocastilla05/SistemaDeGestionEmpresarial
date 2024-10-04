@@ -1,7 +1,7 @@
 from ufos import *
 
 # Test de la función lee_avistamientos
-avistamientos = lee_avistamientos("..data/ovnis.csv")
+avistamientos = lee_avistamientos("Ufos\data\ovnis.csv")
 
 for a in avistamientos[:5]:
     print(a)
