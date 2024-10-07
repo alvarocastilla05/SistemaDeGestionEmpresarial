@@ -27,6 +27,31 @@ def lee_avistamientos(fichero):
             tupla = Avistamiento(fechahora, ciudad, estado, forma, duracion, comentarios, latitud, longitud)
             res.append(tupla)
     
+    
     return res
+#2- duracion_total(registros, estado) devuelve la duración total de los avistamientos en un estado.
+def duracion_total(registros, estado):
+
+    duracion_total = 0
+
+    for x in registros :
+        if x.estado == estado :
+            duracion_total += x.duracion
+
+    return duracion_total
+
+
+#3-comentario_mas_largo(registros, anyo, palabra): devuelve el registro correspondiente al avistamiento cuyo comentario es más largo,
+#  de entre todos aquellos avistamientos ocurridos en el año indicado por el parámetro anyo y cuyo comentario incluya la palabra recibida 
+# en el parámetro palabra.
+
+def comentario_mas_largo(registros, anyo, palabra):
+
+
+
+
+
+
+
 
 
