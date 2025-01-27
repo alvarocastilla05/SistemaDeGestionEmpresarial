@@ -8,3 +8,5 @@ diccionario={
 
 aTraducir = input("Introduzca la palabra a traducir: ")
 
+if(aTraducir.startswith("." or "_" or "-")):
+    
