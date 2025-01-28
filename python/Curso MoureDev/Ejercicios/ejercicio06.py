@@ -12,3 +12,10 @@ def comparacion_arrays(array1, array2, boolean):
                 if item not in array1 and item not in result:
                     result.append(item)
     return result
+
+array1 = [1, 2, 3, 4, 5]
+array2 = [4, 5, 6, 7, 8]
+
+print(comparacion_arrays(array1, array2, True)) 
+
+print(comparacion_arrays(array1, array2, False))  

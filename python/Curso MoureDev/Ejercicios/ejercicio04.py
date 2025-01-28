@@ -14,5 +14,5 @@ def poner_mayuscula_a_palabras(cadena):
     
     return resultado
 
-texto = "este es un ejemplo de texto!"
+texto = input("Introduzca texto: ")
 print(poner_mayuscula_a_palabras(texto)) 
